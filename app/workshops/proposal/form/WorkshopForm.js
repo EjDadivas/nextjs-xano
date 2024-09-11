@@ -124,6 +124,7 @@ export default function WorkshopForm() {
                 <PopoverTrigger asChild>
                   <FormControl>
                     <Button
+                  
                       variant="outline"
                       role="combobox"
                       className={cn(
@@ -324,6 +325,7 @@ export default function WorkshopForm() {
                     <PopoverTrigger asChild>
                       <FormControl>
                         <Button
+                        type="button"
                           variant={"outline"}
                           className={cn(
                             "w-full pl-3 text-left font-normal",
