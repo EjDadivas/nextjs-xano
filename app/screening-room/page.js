@@ -1,5 +1,4 @@
-
-import React from 'react'
+"use client"
 import VideoCard from './VideoCard'
 import { Checkbox } from '@/components/ui/checkbox'
  
@@ -12,7 +11,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-function page() {
+
+export default function page() {
   const videos = [
     {
       public_id: "aom/d5prsksleg0dxuwjo175",
@@ -93,4 +93,3 @@ function page() {
   )
 }
 
-export default page

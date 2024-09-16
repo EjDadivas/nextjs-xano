@@ -1,7 +1,7 @@
-import React from 'react'
+"use client"
 import VideoPlayer from './VideoPlayer'
 
-function WatchVideo({params}) {
+export default function page({params}) {
   return (
     <div>
     <VideoPlayer public_id={params.id}/>
@@ -9,4 +9,3 @@ function WatchVideo({params}) {
   )
 }
 
-export default WatchVideo

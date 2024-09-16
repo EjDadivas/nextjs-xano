@@ -3,13 +3,13 @@ import CloudinaryVideos from "./CloudinaryVideos";
 import CloudinaryVideos2 from "./CloudinaryVideos2";
 import CloudinaryVideos3 from "./CloudinaryVideos3";
 
-export default function CloudinaryPage() {
+export default function  page() {
   return (
    <div className="p-32">
 
     <CloudinaryVideos/>
     <CloudinaryVideos2 />
-    <CloudinaryVideos3/>
+    {/* <CloudinaryVideos3/> */}
    </div>
   );
 }
