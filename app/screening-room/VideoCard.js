@@ -53,7 +53,7 @@ const VideoCard = ({public_id, title, description}) => {
     /> */}
         <iframe
         src={'https://player.cloudinary.com/embed/?' + vidURL}
-        className="rounded-md  mt-6"
+        className="rounded-md  mt-6 w-full aspect-video"
         allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
         undefined
         allowfullscreen
