@@ -1,5 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from 'react';
+import { CldVideoPlayer } from 'next-cloudinary';
+import 'next-cloudinary/dist/cld-video-player.css';
 // import cloudinary from 'cloudinary-video-player';
 // import 'cloudinary-video-player/cld-video-player.min.css';
 
@@ -34,14 +36,19 @@ const VideoPlayer = ({public_id}) => {
         className="cld-video-player cld-fluid"
      
       /> */}
-              <iframe
+        {/* <iframe
         src={'https://player.cloudinary.com/embed/?' + vidURL}
         className=" w-full h-screen"
         allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
         undefined
         allowfullscreen
         frameborder="0"
-        ></iframe>
+        ></iframe> */}
+         <CldVideoPlayer
+            // width="1920"
+            // height="1080"
+            src={`aom/${public_id}`}
+        />
       </>
     );
   };
