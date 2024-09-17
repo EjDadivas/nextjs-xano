@@ -10,17 +10,17 @@ const CloudinaryVideos2 = () => {
         <CldVideoPlayer
             width="1920"
             height="1080"
-            src="aom/d5prsksleg0dxuwjo175"
+            src="aom/faded"
         />
         <CldVideoPlayer
             width="1920"
             height="1080"
-            src="aom/xskfmj11wtti8kxh3p2c"
+            src="aom/shift"
         />
              <CldVideoPlayer
             width="1920"
             height="1080"
-            src="aom/zwwd7knrefkxxydsfiw2"
+            src="aom/beautifulmadness"
         />
         </>
     );

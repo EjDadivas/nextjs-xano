@@ -3,20 +3,20 @@ import React from 'react'
 const CloudinaryVideos = () => {
 
     const vid1URL  =  new URLSearchParams({
-        public_id: 'aom/d5prsksleg0dxuwjo175',
-        cloud_name: 'dj4msy5rr',
+        public_id: 'aom/faded',
+        cloud_name: 'da12csktz',
         analytics: true
     }).toString();
 
     const vid2URL  =  new URLSearchParams({
-        public_id: 'aom/xskfmj11wtti8kxh3p2c',
-        cloud_name: 'dj4msy5rr',
+        public_id: 'aom/shift',
+        cloud_name: 'da12csktz',
      
     }).toString();
 
     const vid3URL  =  new URLSearchParams({
-        public_id: 'aom/zwwd7knrefkxxydsfiw2',
-        cloud_name: 'dj4msy5rr',
+        public_id: 'aom/beautifulmadness',
+        cloud_name: 'da12csktz',
       
     }).toString();
 

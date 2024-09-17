@@ -15,14 +15,14 @@ const VideoPlayer = ({public_id}) => {
       // cloudinaryRef.current = cloudinary;
   
       // const player = cloudinaryRef.current.videoPlayer(playerRef.current, {
-      //   cloud_name: 'dj4msy5rr',
+      //   cloud_name: 'da12csktz',
       //   secure: true,
       //   controls: true,
       // });
       // player.source(`aom/${public_id}`);
       const vid1URL  =  new URLSearchParams({
         public_id: `aom/${public_id}`,
-        cloud_name: 'dj4msy5rr',
+        cloud_name: 'da12csktz',
         analytics: true,
         showLogo:false
     }).toString();
@@ -48,6 +48,7 @@ const VideoPlayer = ({public_id}) => {
             // width="1920"
             // height="1080"
             src={`aom/${public_id}`}
+            analytics={true}
         />
       </>
     );

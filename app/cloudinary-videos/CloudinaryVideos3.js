@@ -13,11 +13,14 @@ const CloudinaryVideos3 = () => {
     cloudinaryRef.current = cloudinary;
 
     const player = cloudinaryRef.current.videoPlayer(playerRef.current, {
-      cloud_name: 'dj4msy5rr',
+      cloud_name: 'da12csktz',
       secure: true,
       controls: true,
+      cloudinaryAnalytics: {customData: {
+        customData1: 'Beloit College'
+      }}
     });
-    player.source("aom/zwwd7knrefkxxydsfiw2");
+    player.source("aom/beautifulmadness");
   }, []);
 
   return (

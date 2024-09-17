@@ -27,7 +27,7 @@ const VideoCard = ({public_id, title, description}) => {
     // cloudinaryRef.current = cloudinary;
 
     // const player = cloudinaryRef.current.videoPlayer(playerRef.current, {
-    //   cloud_name: 'dj4msy5rr',
+    //   cloud_name: 'da12csktz',
     //   secure: true,
     //   controls: true,
     //   showLogo:false
@@ -35,9 +35,12 @@ const VideoCard = ({public_id, title, description}) => {
     // player.source(public_id);
     const vid1URL  =  new URLSearchParams({
       public_id: `${public_id}`,
-      cloud_name: 'dj4msy5rr',
+      cloud_name: 'da12csktz',
       analytics: true,
-      showLogo:false
+      showLogo:false,
+      cloudinaryAnalytics: {customData: {
+        customData1: 'Amherst College',
+      }}
   }).toString();
   setVidURL(vid1URL)
 

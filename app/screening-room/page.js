@@ -15,17 +15,17 @@ import {
 export default function page() {
   const videos = [
     {
-      public_id: "aom/d5prsksleg0dxuwjo175",
+      public_id: "aom/faded",
       title: "Beautiful Madness",
       description: "Beautiful Madness is a short film that explores Bipolar Disorder and how creativity and inspiration can lead to healing and clarity.",
     },
     {
-      public_id: "aom/xskfmj11wtti8kxh3p2c",
+      public_id: "aom/shift",
       title: "Shift",
       description: "During a pandemic, a nurse decides to live in her car to protect her family. The cheesy greeting cards that her son send her begin to take...",
     },
     {
-      public_id: "aom/zwwd7knrefkxxydsfiw2",
+      public_id: "aom/beautifulmadness",
       title: "Faded",
       description: "“Faded” is an alternative, narrative short film about living with depression, portraying the struggle of doing simple daily tasks that...",
     },
